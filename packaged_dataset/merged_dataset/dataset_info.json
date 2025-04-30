@@ -1,0 +1,52 @@
+{
+  "builder_name": "arrow",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "mg-verilog",
+  "dataset_size": 61166872,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/GaTech-EIC/MG-Verilog@270b33fc83ec02df637e1dc194bb4714356a0366/merged_dataset/data-00000-of-00001.arrow": {
+      "num_bytes": 61173920,
+      "checksum": null
+    }
+  },
+  "download_size": 61173920,
+  "features": {
+    "code": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "description": {
+      "block_summary": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "detailed_global_summary": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "high_level_global_summary": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 122340792,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 61166872,
+      "num_examples": 11144,
+      "dataset_name": "mg-verilog"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
